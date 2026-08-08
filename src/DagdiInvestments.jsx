@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+const GOOGLE_FORM_URL = "https://forms.gle/xKwwVysuSoQoanvC7";
 
 // ─── GOOGLE FONTS ───────────────────────────────────────────────────────────
 const FontLink = () => (
@@ -534,7 +535,7 @@ const Hero = () => (
       <div className="hero-rule" />
       <p className="hero-sub">Strategic real estate investments built for long-term value.</p>
       <div className="hero-ctas">
-        <a href="#contact" className="btn-primary">Start a Conversation</a>
+        <a href={GOOGLE_FORM_URL} target="_blank" rel="noopener noreferrer" className="btn-primary" > Start a Conversation </a>
       </div>
     </div>
     <div className="hero-scroll" aria-hidden="true">
@@ -833,9 +834,7 @@ const Contact = () => (
       <p className="contact-sub reveal reveal-delay-2">
         Have a property, investment opportunity or partnership worth discussing?
       </p>
-      <a href="mailto:hello@dagdiinvestments.com" className="btn-amber reveal reveal-delay-3">
-        Start a Conversation →
-      </a>
+      <a href={GOOGLE_FORM_URL} target="_blank" rel="noopener noreferrer" className="btn-amber reveal reveal-delay-3" > Start a Conversation → </a>
       <div className="contact-info reveal reveal-delay-4">
         {[
           { l: "Email", v: "help@dagdiinvestments.com" },
