@@ -836,9 +836,9 @@ const Contact = () => (
       </a>
       <div className="contact-info reveal reveal-delay-4">
         {[
-          { l: "Email", v: "hello@dagdiinvestments.com" },
-          { l: "Phone", v: "+91 [Phone Placeholder]" },
-          { l: "Office", v: "Rajasthan, India" },
+          { l: "Email", v: "help@dagdiinvestments.com" },
+          { l: "Phone", v: "+91 8197344182" },
+          { l: "Office", v: "College Road, In Front of Shani Mandir, Beawar, Rajasthan, India" },
         ].map(({ l, v }) => (
           <div className="contact-item" key={l}>
             <span className="contact-label">{l}</span>
