@@ -436,14 +436,16 @@ const FontLink = () => (
 
 // ─── GEOMETRIC LOGO MARK ───────────────────────────────────────────────────
 const LogoMark = ({ size = 36 }) => (
-  <svg width={size} height={size} viewBox="0 0 40 40" fill="none" aria-hidden="true">
-    <rect x="8" y="20" width="14" height="14" fill="#0D5C63"/>
-    <rect x="18" y="12" width="14" height="14" fill="#2AABB8"/>
-    <rect x="8" y="12" width="10" height="8" fill="#1A7A83"/>
-    <rect x="18" y="20" width="4" height="4" fill="#1A7A83"/>
-    <rect x="24" y="8" width="8" height="4" fill="#D4830A" opacity="0.9"/>
-    <rect x="8" y="8" width="10" height="4" fill="#2AABB8" opacity="0.6"/>
-  </svg>
+  <img
+    src="/logo.png"
+    alt="Dagdi Investments"
+    width={size}
+    height={size}
+    style={{
+      objectFit: "contain",
+      display: "block",
+    }}
+  />
 );
 
 // Large decorative version
