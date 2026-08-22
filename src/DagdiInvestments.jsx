@@ -837,7 +837,7 @@ const Contact = () => (
       <a href={GOOGLE_FORM_URL} target="_blank" rel="noopener noreferrer" className="btn-amber reveal reveal-delay-3" > Start a Conversation → </a>
       <div className="contact-info reveal reveal-delay-4">
         {[
-          { l: "Email", v: "help@dagdiinvestments.com" },
+          { l: "Email", v: "support@dagdiinvestments.com" },
           { l: "Phone", v: "+91 8197344182" },
           { l: "Office", v: "College Road, In Front of Shani Mandir, Beawar, Rajasthan, India" },
         ].map(({ l, v }) => (
